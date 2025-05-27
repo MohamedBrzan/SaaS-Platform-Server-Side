@@ -1,0 +1,104 @@
+# Node
+node_modules/
+dist/
+build/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
+.envrc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+.secret*
+*.envrc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Typescript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Lint cache
+.eslintcache
+
+# Optional runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# Monorepo tools
+.pnpm-debug.log
+.pnpm-store
+.cache/
+turbo/
+
+# Husky
+.husky/_/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Docker
+docker-compose.override.yml
+docker-data/
+
+# Kafka
+kafka-logs/
+zookeeper-data/
+
+# Helm
+chart/values.override.yaml
+helm-debug.log
+
+# Kubernetes
+.kube/
+
+# Test files
+test-results/
+reports/
+jest-html-reporters-*.html
+
+# Docs
+docs/.DS_Store
+docs/**/*.swp
+
+# VS Code settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
